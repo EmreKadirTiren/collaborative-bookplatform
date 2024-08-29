@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Story Writing Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Collaborative Story Writing Platform</h1>
+        
+        <form id="new-story-form">
+            <h2>Start a New Story</h2>
+            <input type="text" id="username" placeholder="Your Username" required>
+            <textarea id="projectIdea" placeholder="Project Idea" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="stories">
+            <h2>Stories</h2>
+            <!-- Stories will be dynamically inserted here -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
